@@ -7,6 +7,3 @@ class Order:
         return f'{self.total} сом'
     def show_order(self):
         print(f'Заказ: {self.order_id} кардар: {self.customer_name} жалпы сумма: {self.total}сом')
-a1 = Order('бутсы', 'Чынгыз',  2000)
-a1.show_order()
-print(a1.calculate_total())
